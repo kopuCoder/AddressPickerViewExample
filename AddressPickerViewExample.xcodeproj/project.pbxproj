@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFCD095B7646F0A092BEA25 /* libPods-AddressPickerViewExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8E3F762EBE65D50F4BF3A0 /* libPods-AddressPickerViewExampleUITests.a */; };
+		1DE93FA31F52D72900B7FFE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FA21F52D72900B7FFE3 /* main.m */; };
+		1DE93FA61F52D72900B7FFE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FA51F52D72900B7FFE3 /* AppDelegate.m */; };
+		1DE93FA91F52D72900B7FFE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FA81F52D72900B7FFE3 /* ViewController.m */; };
+		1DE93FAC1F52D72900B7FFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE93FAA1F52D72900B7FFE3 /* Main.storyboard */; };
+		1DE93FAE1F52D72900B7FFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE93FAD1F52D72900B7FFE3 /* Assets.xcassets */; };
+		1DE93FB11F52D72900B7FFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE93FAF1F52D72900B7FFE3 /* LaunchScreen.storyboard */; };
+		1DE93FBC1F52D72900B7FFE3 /* AddressPickerViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FBB1F52D72900B7FFE3 /* AddressPickerViewExampleTests.m */; };
+		1DE93FC71F52D72900B7FFE3 /* AddressPickerViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FC61F52D72900B7FFE3 /* AddressPickerViewExampleUITests.m */; };
+		1DE93FE61F52D79300B7FFE3 /* Address.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DE93FD71F52D79300B7FFE3 /* Address.bundle */; };
+		1DE93FE71F52D79300B7FFE3 /* SXD_AddressAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FD91F52D79300B7FFE3 /* SXD_AddressAction.m */; };
+		1DE93FE81F52D79300B7FFE3 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FDD1F52D79300B7FFE3 /* UIColor+Extension.m */; };
+		1DE93FE91F52D79300B7FFE3 /* SXD_AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FE01F52D79300B7FFE3 /* SXD_AddressModel.m */; };
+		1DE93FEA1F52D79300B7FFE3 /* SXD_PickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FE31F52D79300B7FFE3 /* SXD_PickerViewCell.m */; };
+		1DE93FEB1F52D79300B7FFE3 /* SXD_AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE93FE51F52D79300B7FFE3 /* SXD_AddressPickerView.m */; };
+		3657E4A2C0EA934173439D23 /* libPods-AddressPickerViewExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A6614BE819DB40300D416B /* libPods-AddressPickerViewExample.a */; };
+		86449730031758A91C79D3A7 /* libPods-AddressPickerViewExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4637BFF76AD8EA374BF0AC20 /* libPods-AddressPickerViewExampleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE93FB81F52D72900B7FFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE93F961F52D72900B7FFE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE93F9D1F52D72900B7FFE3;
+			remoteInfo = AddressPickerViewExample;
+		};
+		1DE93FC31F52D72900B7FFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE93F961F52D72900B7FFE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE93F9D1F52D72900B7FFE3;
+			remoteInfo = AddressPickerViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033F12A3991AF0764FCE3851 /* Pods-AddressPickerViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewExampleUITests/Pods-AddressPickerViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1DE93F9E1F52D72900B7FFE3 /* AddressPickerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressPickerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE93FA21F52D72900B7FFE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DE93FA41F52D72900B7FFE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DE93FA51F52D72900B7FFE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DE93FA71F52D72900B7FFE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DE93FA81F52D72900B7FFE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DE93FAB1F52D72900B7FFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DE93FAD1F52D72900B7FFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DE93FB01F52D72900B7FFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DE93FB21F52D72900B7FFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE93FB71F52D72900B7FFE3 /* AddressPickerViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE93FBB1F52D72900B7FFE3 /* AddressPickerViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerViewExampleTests.m; sourceTree = "<group>"; };
+		1DE93FBD1F52D72900B7FFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE93FC21F52D72900B7FFE3 /* AddressPickerViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE93FC61F52D72900B7FFE3 /* AddressPickerViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerViewExampleUITests.m; sourceTree = "<group>"; };
+		1DE93FC81F52D72900B7FFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE93FD71F52D79300B7FFE3 /* Address.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Address.bundle; sourceTree = "<group>"; };
+		1DE93FD81F52D79300B7FFE3 /* SXD_AddressAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXD_AddressAction.h; sourceTree = "<group>"; };
+		1DE93FD91F52D79300B7FFE3 /* SXD_AddressAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXD_AddressAction.m; sourceTree = "<group>"; };
+		1DE93FDA1F52D79300B7FFE3 /* AddressPch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPch.h; sourceTree = "<group>"; };
+		1DE93FDC1F52D79300B7FFE3 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		1DE93FDD1F52D79300B7FFE3 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		1DE93FDF1F52D79300B7FFE3 /* SXD_AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXD_AddressModel.h; sourceTree = "<group>"; };
+		1DE93FE01F52D79300B7FFE3 /* SXD_AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXD_AddressModel.m; sourceTree = "<group>"; };
+		1DE93FE21F52D79300B7FFE3 /* SXD_PickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXD_PickerViewCell.h; sourceTree = "<group>"; };
+		1DE93FE31F52D79300B7FFE3 /* SXD_PickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXD_PickerViewCell.m; sourceTree = "<group>"; };
+		1DE93FE41F52D79300B7FFE3 /* SXD_AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXD_AddressPickerView.h; sourceTree = "<group>"; };
+		1DE93FE51F52D79300B7FFE3 /* SXD_AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXD_AddressPickerView.m; sourceTree = "<group>"; };
+		23F12C2989CE6D88213D07CD /* Pods-AddressPickerViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewExampleTests/Pods-AddressPickerViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		4637BFF76AD8EA374BF0AC20 /* libPods-AddressPickerViewExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressPickerViewExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A23359BE279E3CEDE4CBB4 /* Pods-AddressPickerViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewExampleUITests/Pods-AddressPickerViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8E3F762EBE65D50F4BF3A0 /* libPods-AddressPickerViewExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressPickerViewExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863C252C854CD832EED3D406 /* Pods-AddressPickerViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewExample/Pods-AddressPickerViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		95E01CF08F5E21479D5BA7DF /* Pods-AddressPickerViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewExampleTests/Pods-AddressPickerViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A32EAEE16C3BBFF872B411D9 /* Pods-AddressPickerViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressPickerViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressPickerViewExample/Pods-AddressPickerViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A6614BE819DB40300D416B /* libPods-AddressPickerViewExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressPickerViewExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE93F9B1F52D72900B7FFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3657E4A2C0EA934173439D23 /* libPods-AddressPickerViewExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE93FB41F52D72900B7FFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86449730031758A91C79D3A7 /* libPods-AddressPickerViewExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE93FBF1F52D72900B7FFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFCD095B7646F0A092BEA25 /* libPods-AddressPickerViewExampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE93F951F52D72900B7FFE3 = {
+			isa = PBXGroup;
+			children = (
+				1DE93FA01F52D72900B7FFE3 /* AddressPickerViewExample */,
+				1DE93FBA1F52D72900B7FFE3 /* AddressPickerViewExampleTests */,
+				1DE93FC51F52D72900B7FFE3 /* AddressPickerViewExampleUITests */,
+				1DE93F9F1F52D72900B7FFE3 /* Products */,
+				6A26D637925C6C1E45176A8C /* Pods */,
+				52E1D59E904453DEEBF67D24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE93F9F1F52D72900B7FFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93F9E1F52D72900B7FFE3 /* AddressPickerViewExample.app */,
+				1DE93FB71F52D72900B7FFE3 /* AddressPickerViewExampleTests.xctest */,
+				1DE93FC21F52D72900B7FFE3 /* AddressPickerViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE93FA01F52D72900B7FFE3 /* AddressPickerViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FD41F52D79300B7FFE3 /* AddressPickerView */,
+				1DE93FA41F52D72900B7FFE3 /* AppDelegate.h */,
+				1DE93FA51F52D72900B7FFE3 /* AppDelegate.m */,
+				1DE93FA71F52D72900B7FFE3 /* ViewController.h */,
+				1DE93FA81F52D72900B7FFE3 /* ViewController.m */,
+				1DE93FAA1F52D72900B7FFE3 /* Main.storyboard */,
+				1DE93FAD1F52D72900B7FFE3 /* Assets.xcassets */,
+				1DE93FAF1F52D72900B7FFE3 /* LaunchScreen.storyboard */,
+				1DE93FB21F52D72900B7FFE3 /* Info.plist */,
+				1DE93FA11F52D72900B7FFE3 /* Supporting Files */,
+			);
+			path = AddressPickerViewExample;
+			sourceTree = "<group>";
+		};
+		1DE93FA11F52D72900B7FFE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FA21F52D72900B7FFE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE93FBA1F52D72900B7FFE3 /* AddressPickerViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FBB1F52D72900B7FFE3 /* AddressPickerViewExampleTests.m */,
+				1DE93FBD1F52D72900B7FFE3 /* Info.plist */,
+			);
+			path = AddressPickerViewExampleTests;
+			sourceTree = "<group>";
+		};
+		1DE93FC51F52D72900B7FFE3 /* AddressPickerViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FC61F52D72900B7FFE3 /* AddressPickerViewExampleUITests.m */,
+				1DE93FC81F52D72900B7FFE3 /* Info.plist */,
+			);
+			path = AddressPickerViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		1DE93FD41F52D79300B7FFE3 /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FE41F52D79300B7FFE3 /* SXD_AddressPickerView.h */,
+				1DE93FE51F52D79300B7FFE3 /* SXD_AddressPickerView.m */,
+				1DE93FD51F52D79300B7FFE3 /* Classes */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		1DE93FD51F52D79300B7FFE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FD61F52D79300B7FFE3 /* Action */,
+				1DE93FDA1F52D79300B7FFE3 /* AddressPch.h */,
+				1DE93FDB1F52D79300B7FFE3 /* Category */,
+				1DE93FDE1F52D79300B7FFE3 /* Model */,
+				1DE93FE11F52D79300B7FFE3 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1DE93FD61F52D79300B7FFE3 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FD71F52D79300B7FFE3 /* Address.bundle */,
+				1DE93FD81F52D79300B7FFE3 /* SXD_AddressAction.h */,
+				1DE93FD91F52D79300B7FFE3 /* SXD_AddressAction.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		1DE93FDB1F52D79300B7FFE3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FDC1F52D79300B7FFE3 /* UIColor+Extension.h */,
+				1DE93FDD1F52D79300B7FFE3 /* UIColor+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1DE93FDE1F52D79300B7FFE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FDF1F52D79300B7FFE3 /* SXD_AddressModel.h */,
+				1DE93FE01F52D79300B7FFE3 /* SXD_AddressModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DE93FE11F52D79300B7FFE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DE93FE21F52D79300B7FFE3 /* SXD_PickerViewCell.h */,
+				1DE93FE31F52D79300B7FFE3 /* SXD_PickerViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52E1D59E904453DEEBF67D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A6614BE819DB40300D416B /* libPods-AddressPickerViewExample.a */,
+				4637BFF76AD8EA374BF0AC20 /* libPods-AddressPickerViewExampleTests.a */,
+				5B8E3F762EBE65D50F4BF3A0 /* libPods-AddressPickerViewExampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A26D637925C6C1E45176A8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A32EAEE16C3BBFF872B411D9 /* Pods-AddressPickerViewExample.debug.xcconfig */,
+				863C252C854CD832EED3D406 /* Pods-AddressPickerViewExample.release.xcconfig */,
+				95E01CF08F5E21479D5BA7DF /* Pods-AddressPickerViewExampleTests.debug.xcconfig */,
+				23F12C2989CE6D88213D07CD /* Pods-AddressPickerViewExampleTests.release.xcconfig */,
+				53A23359BE279E3CEDE4CBB4 /* Pods-AddressPickerViewExampleUITests.debug.xcconfig */,
+				033F12A3991AF0764FCE3851 /* Pods-AddressPickerViewExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE93F9D1F52D72900B7FFE3 /* AddressPickerViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE93FCB1F52D72900B7FFE3 /* Build configuration list for PBXNativeTarget "AddressPickerViewExample" */;
+			buildPhases = (
+				45B66492093C6FD7391E3184 /* [CP] Check Pods Manifest.lock */,
+				1DE93F9A1F52D72900B7FFE3 /* Sources */,
+				1DE93F9B1F52D72900B7FFE3 /* Frameworks */,
+				1DE93F9C1F52D72900B7FFE3 /* Resources */,
+				4FCB38136EA5F3D872D0F73B /* [CP] Embed Pods Frameworks */,
+				69D7FE678E20737E01590AA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressPickerViewExample;
+			productName = AddressPickerViewExample;
+			productReference = 1DE93F9E1F52D72900B7FFE3 /* AddressPickerViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DE93FB61F52D72900B7FFE3 /* AddressPickerViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE93FCE1F52D72900B7FFE3 /* Build configuration list for PBXNativeTarget "AddressPickerViewExampleTests" */;
+			buildPhases = (
+				37881FADE3613D261EEAAA94 /* [CP] Check Pods Manifest.lock */,
+				1DE93FB31F52D72900B7FFE3 /* Sources */,
+				1DE93FB41F52D72900B7FFE3 /* Frameworks */,
+				1DE93FB51F52D72900B7FFE3 /* Resources */,
+				CD8F1195D4A05F6033C3E7C3 /* [CP] Embed Pods Frameworks */,
+				62C2356DC0FD1D4EAF429E15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE93FB91F52D72900B7FFE3 /* PBXTargetDependency */,
+			);
+			name = AddressPickerViewExampleTests;
+			productName = AddressPickerViewExampleTests;
+			productReference = 1DE93FB71F52D72900B7FFE3 /* AddressPickerViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DE93FC11F52D72900B7FFE3 /* AddressPickerViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE93FD11F52D72900B7FFE3 /* Build configuration list for PBXNativeTarget "AddressPickerViewExampleUITests" */;
+			buildPhases = (
+				75438802818631B6BAD42C7A /* [CP] Check Pods Manifest.lock */,
+				1DE93FBE1F52D72900B7FFE3 /* Sources */,
+				1DE93FBF1F52D72900B7FFE3 /* Frameworks */,
+				1DE93FC01F52D72900B7FFE3 /* Resources */,
+				547076BB4D8F557594AA5C92 /* [CP] Embed Pods Frameworks */,
+				63EEE862B4F41A3A6D8A39C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE93FC41F52D72900B7FFE3 /* PBXTargetDependency */,
+			);
+			name = AddressPickerViewExampleUITests;
+			productName = AddressPickerViewExampleUITests;
+			productReference = 1DE93FC21F52D72900B7FFE3 /* AddressPickerViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE93F961F52D72900B7FFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bruce Chin";
+				TargetAttributes = {
+					1DE93F9D1F52D72900B7FFE3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GU4AG67F55;
+						ProvisioningStyle = Automatic;
+					};
+					1DE93FB61F52D72900B7FFE3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DE93F9D1F52D72900B7FFE3;
+					};
+					1DE93FC11F52D72900B7FFE3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DE93F9D1F52D72900B7FFE3;
+					};
+				};
+			};
+			buildConfigurationList = 1DE93F991F52D72900B7FFE3 /* Build configuration list for PBXProject "AddressPickerViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE93F951F52D72900B7FFE3;
+			productRefGroup = 1DE93F9F1F52D72900B7FFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE93F9D1F52D72900B7FFE3 /* AddressPickerViewExample */,
+				1DE93FB61F52D72900B7FFE3 /* AddressPickerViewExampleTests */,
+				1DE93FC11F52D72900B7FFE3 /* AddressPickerViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE93F9C1F52D72900B7FFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE93FE61F52D79300B7FFE3 /* Address.bundle in Resources */,
+				1DE93FB11F52D72900B7FFE3 /* LaunchScreen.storyboard in Resources */,
+				1DE93FAE1F52D72900B7FFE3 /* Assets.xcassets in Resources */,
+				1DE93FAC1F52D72900B7FFE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE93FB51F52D72900B7FFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE93FC01F52D72900B7FFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37881FADE3613D261EEAAA94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressPickerViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B66492093C6FD7391E3184 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressPickerViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FCB38136EA5F3D872D0F73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewExample/Pods-AddressPickerViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547076BB4D8F557594AA5C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewExampleUITests/Pods-AddressPickerViewExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C2356DC0FD1D4EAF429E15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewExampleTests/Pods-AddressPickerViewExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63EEE862B4F41A3A6D8A39C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewExampleUITests/Pods-AddressPickerViewExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D7FE678E20737E01590AA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewExample/Pods-AddressPickerViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75438802818631B6BAD42C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddressPickerViewExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8F1195D4A05F6033C3E7C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressPickerViewExampleTests/Pods-AddressPickerViewExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE93F9A1F52D72900B7FFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE93FE71F52D79300B7FFE3 /* SXD_AddressAction.m in Sources */,
+				1DE93FEA1F52D79300B7FFE3 /* SXD_PickerViewCell.m in Sources */,
+				1DE93FA91F52D72900B7FFE3 /* ViewController.m in Sources */,
+				1DE93FE91F52D79300B7FFE3 /* SXD_AddressModel.m in Sources */,
+				1DE93FE81F52D79300B7FFE3 /* UIColor+Extension.m in Sources */,
+				1DE93FA61F52D72900B7FFE3 /* AppDelegate.m in Sources */,
+				1DE93FA31F52D72900B7FFE3 /* main.m in Sources */,
+				1DE93FEB1F52D79300B7FFE3 /* SXD_AddressPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE93FB31F52D72900B7FFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE93FBC1F52D72900B7FFE3 /* AddressPickerViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE93FBE1F52D72900B7FFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE93FC71F52D72900B7FFE3 /* AddressPickerViewExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE93FB91F52D72900B7FFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE93F9D1F52D72900B7FFE3 /* AddressPickerViewExample */;
+			targetProxy = 1DE93FB81F52D72900B7FFE3 /* PBXContainerItemProxy */;
+		};
+		1DE93FC41F52D72900B7FFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE93F9D1F52D72900B7FFE3 /* AddressPickerViewExample */;
+			targetProxy = 1DE93FC31F52D72900B7FFE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DE93FAA1F52D72900B7FFE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE93FAB1F52D72900B7FFE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DE93FAF1F52D72900B7FFE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE93FB01F52D72900B7FFE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DE93FC91F52D72900B7FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DE93FCA1F52D72900B7FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DE93FCC1F52D72900B7FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32EAEE16C3BBFF872B411D9 /* Pods-AddressPickerViewExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GU4AG67F55;
+				INFOPLIST_FILE = AddressPickerViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.colorDemo.AddressPickerViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DE93FCD1F52D72900B7FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863C252C854CD832EED3D406 /* Pods-AddressPickerViewExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GU4AG67F55;
+				INFOPLIST_FILE = AddressPickerViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.colorDemo.AddressPickerViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DE93FCF1F52D72900B7FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E01CF08F5E21479D5BA7DF /* Pods-AddressPickerViewExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressPickerViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.colorDemo.AddressPickerViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressPickerViewExample.app/AddressPickerViewExample";
+			};
+			name = Debug;
+		};
+		1DE93FD01F52D72900B7FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F12C2989CE6D88213D07CD /* Pods-AddressPickerViewExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressPickerViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.colorDemo.AddressPickerViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressPickerViewExample.app/AddressPickerViewExample";
+			};
+			name = Release;
+		};
+		1DE93FD21F52D72900B7FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A23359BE279E3CEDE4CBB4 /* Pods-AddressPickerViewExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AddressPickerViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.colorDemo.AddressPickerViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressPickerViewExample;
+			};
+			name = Debug;
+		};
+		1DE93FD31F52D72900B7FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033F12A3991AF0764FCE3851 /* Pods-AddressPickerViewExampleUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AddressPickerViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.colorDemo.AddressPickerViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressPickerViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE93F991F52D72900B7FFE3 /* Build configuration list for PBXProject "AddressPickerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE93FC91F52D72900B7FFE3 /* Debug */,
+				1DE93FCA1F52D72900B7FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE93FCB1F52D72900B7FFE3 /* Build configuration list for PBXNativeTarget "AddressPickerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE93FCC1F52D72900B7FFE3 /* Debug */,
+				1DE93FCD1F52D72900B7FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE93FCE1F52D72900B7FFE3 /* Build configuration list for PBXNativeTarget "AddressPickerViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE93FCF1F52D72900B7FFE3 /* Debug */,
+				1DE93FD01F52D72900B7FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE93FD11F52D72900B7FFE3 /* Build configuration list for PBXNativeTarget "AddressPickerViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE93FD21F52D72900B7FFE3 /* Debug */,
+				1DE93FD31F52D72900B7FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DE93F961F52D72900B7FFE3 /* Project object */;
+}
